@@ -97,8 +97,8 @@ export class ProductRepository implements IProductRepository {
       name: 'product.name',
       price: 'product.price',
       stock: 'product.stock',
-      createdAt: 'product.created_at',
-      updatedAt: 'product.updated_at',
+      createdAt: 'product.createdAt',
+      updatedAt: 'product.updatedAt',
     };
 
     const orderField = validSortFields[sortBy] ?? 'product.created_at';

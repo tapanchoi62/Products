@@ -17,7 +17,7 @@ services:
       DB_USERNAME: ${DB_USERNAME:-postgres}
       DB_PASSWORD: ${DB_PASSWORD:-postgres}
       DB_NAME: ${DB_NAME:-product_service}
-      DB_SYNCHRONIZE: 'false'
+      DB_SYNCHRONIZE: 'true'
       JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
       JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-7d}
     depends_on:
@@ -31,7 +31,7 @@ services:
     container_name: product-service-db
     restart: unless-stopped
     ports:
-      - '${DB_PORT:-5432}:5432'
+      - '${DB_PORT:-5433}:5432'
     environment:
       POSTGRES_USER: ${DB_USERNAME:-postgres}
       POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
