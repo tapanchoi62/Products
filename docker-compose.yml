@@ -17,7 +17,7 @@ services:
       DB_USERNAME: ${DB_USERNAME:-postgres}
       DB_PASSWORD: ${DB_PASSWORD:-postgres}
       DB_NAME: ${DB_NAME:-product_service}
-      DB_SYNCHRONIZE: 'true'
+      DB_SYNCHRONIZE: 'false'
       JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
       JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-7d}
     depends_on:
