@@ -6,8 +6,8 @@ Product management microservice built with NestJS and PostgreSQL.
 
 | | URL |
 |---|---|
-| **API Base** | https://a980b55c773ada.lhr.life/api/v1 |
-| **Swagger Docs** | https://a980b55c773ada.lhr.life/docs |
+| **API Base** | https://da2de9373b47e0.lhr.life/api/v1 |
+| **Swagger Docs** | https://da2de9373b47e0.lhr.life/docs |
 
 ## Run with Docker
 
