@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Test-NetConnection -ComputerName 192.168.1.9 -Port 5432 -WarningAction SilentlyContinue)",
+      "Bash(Select-Object ComputerName, RemotePort, TcpTestSucceeded)",
+      "PowerShell(Test-NetConnection *)"
+    ]
+  }
+}

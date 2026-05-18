@@ -1,0 +1,6 @@
+export const PRODUCT_REPOSITORY = 'PRODUCT_REPOSITORY';
+export const CATEGORY_REPOSITORY = 'CATEGORY_REPOSITORY';
+
+export const DEFAULT_PAGE = 1;
+export const DEFAULT_LIMIT = 20;
+export const MAX_LIMIT = 100;
